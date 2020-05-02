@@ -25,17 +25,11 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import Bridgefy from 'react-native-bridgefy-sdk';
+import Home from './src/Home/'
 const App = () => {
-  Bridgefy.init('0d103176-2c40-45e2-b6b8-981d22bccd17', 
-  (errorCode, message)=>{
-              console.log(errorCode + "Rohan:" + message);
-              },
-  (client) => {
-              console.log(client);
-              }
-  );
-  return (
-<View><Text>Ajinkya</Text></View>
+
+return (
+  <Home/>
   );
 };
 
