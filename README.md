@@ -10,4 +10,6 @@ npx react-native init bridgefyConn --version 0.62.0
         * Register the application name same as the name of react-native app which you can find in AndroidManifest.xml     in package name.
         * [Bridgefy installation](https://www.npmjs.com/package/react-native-bridgefy-sdk)
         
+   *  [Integrate Google NearBy API](https://www.npmjs.com/package/react-native-google-nearby-connection)            
+   * [Demo Application](https://play.google.com/store/apps/details?id=com.butchmarshall.reactnative.nearby.connection)
 [Write ReadMe online on](https://dillinger.io/) 
